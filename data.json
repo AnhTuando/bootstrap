@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "banx9x",
+      "displayName": "Ba Nguyễn",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Pr_Name",
+      "price": 120000
+    }
+  ]
+}

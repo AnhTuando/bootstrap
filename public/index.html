@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Korean</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <!------------------------------------------------------------------- NAVIGATION -->
+      <!-- PC Navigation -->
+
+      <div class="container">
+        <div class="d-none d-lg-block">
+          <div class="row pc-nav-height">
+            <div class="col-3 col-lg-3 d-flex">
+              <div class="logo">
+                <img src="./img/textLogo.png" alt="" />
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="work-time d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Thời gian làm viêc</div>
+                <div class="time text-warning fw-semibold fs-14px text-end">
+                  T2 - T7: 08:30 am - 21:30pm
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 col-lg-3">
+              <div class="phone-box d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Điện thoại</div>
+                <div class="phone text-warning fw-semibold fs-14px text-end">
+                  0987523525 - 0234533678
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3">
+              <div class="mail-box d-flex flex-column justify-content-center">
+                <div class="title fw-bold text-end">Mail</div>
+                <div class="mail text-warning fw-semibold fs-14px text-end">
+                  Ekorean@gmail.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+
+        <!-- Mobile Navigation -->
+
+        <div class="d-block d-lg-none">
+          <div
+            class="row mobile-nav-bg mobile-nav-height lh-90 position-relative"
+          >
+            <div class="col-2 fs-1 text-light">
+              <div class="sub-nav-btn d-flex justify-content-center">
+                <i class="bi bi-list-ul"></i>
+              </div>
+            </div>
+            <div class="col-8 d-flex justify-content-center">
+              <div class="img-box">
+                <img class="img-fluid" src="./img/E-Korean.png" alt="" />
+              </div>
+            </div>
+            <div class="col-2 fs-1 text-light">
+              <div class="user-login-btn d-flex justify-content-center">
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </div>
+            <div
+              class="subnav col-6 position-absolute mobile-subnav-height bg-light top-100 shadow bg-body-tertiary d-none"
+            >
+              <div
+                class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height mobile-subnav-item-active"
+              >
+                Home
+              </div>
+              <div class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height">
+                Khóa học
+              </div>
+              <div class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height">
+                Lịch khai giảng
+              </div>
+              <div class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height">
+                Blog
+              </div>
+              <div class="row fw-semibold fs-5 ps-3 mobile-subnav-item-height">
+                Liên hệ
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="navigation-2 d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-1 col-lg-1 navigation-2-height">
+              <div class="sub-logo-box">
+                <img
+                  src="./img/SubLogo.png"
+                  alt=""
+                  class="sub-logo navigation-2-height"
+                />
+              </div>
+            </div>
+            <div
+              class="col-10 col-lg-10 navigation-2-height d-flex justify-content-around"
+            >
+              <a
+                class="text-decoration-none fw-bold fs-5 text-light ps-4 pe-4 pc-nav-item-active"
+                href=""
+                >Home</a
+              >
+              <a
+                class="text-decoration-none fw-bold fs-5 text-light ps-4 pe-4"
+                href=""
+                >Khóa học</a
+              >
+              <a
+                class="text-decoration-none fw-bold fs-5 text-light ps-4 pe-4"
+                href=""
+                >Lịch khai giảng</a
+              >
+              <a
+                class="text-decoration-none fw-bold fs-5 text-light ps-4 pe-4"
+                href=""
+                >Blog</a
+              >
+              <a
+                class="text-decoration-none fw-bold fs-5 text-light ps-4 pe-4"
+                href=""
+                >Liên hệ</a
+              >
+            </div>
+            <div class="col-1 col-lg-1 navigation-2-height p-0">
+              <div
+                class="wrap-user-box fs-3 user-box-bg d-flex justify-content-center text-light"
+              >
+                <i class="bi bi-person-circle"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------------------------------------------------------------------END NAVIGATION -->
+      <!------------------------------------------------------------------- SLIDER -->
+      <div class="slider my-3">
+        <div class="container d-block d-lg-none">
+          <div class="row my-3">
+            <div class="col-12 d-flex justify-content-center">
+              <img
+                src="./img/thumb-img-mobile.png"
+                alt=""
+                class="slider-img img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container d-none d-lg-block">
+          <div class="row">
+            <div class="col-8">
+              <div class="item">
+                <img
+                  src="./img/thumb-img-pc.png"
+                  class="thumb-img-pc img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="col-4 d-flex flex-column main-bg justify-content-lg-between p-3 rounded-1"
+            >
+              <div class="item d-flex my-2">
+                <div class="text fw-medium fs-5">
+                  <i class="bi bi-bookmarks-fill orange-color me-lg-2"></i>
+                  <span>Mô hình đào tạo chất lượng</span>
+                </div>
+              </div>
+              <div class="item d-flex my-2 align-content-center">
+                <div class="text fw-medium fs-5">
+                  <i class="bi bi-book-fill orange-color me-lg-2"></i>
+                  <span>
+                    Lộ trình đào tạo đa dạng, phù hợp với mọi học viên</span
+                  >
+                </div>
+              </div>
+              <div class="item d-flex my-2 align-content-center">
+                <div class="text fw-medium fs-5">
+                  <i class="bi bi-kanban-fill orange-color me-lg-2"></i>
+                  <span>
+                    Hệ thống các khóa học từ kiến thức cơ bản đến nâng cao</span
+                  >
+                </div>
+              </div>
+              <div class="item d-flex my-2 align-content-center">
+                <div class="text fw-medium fs-5">
+                  <i class="bi bi-people-fill orange-color me-lg-2"></i>
+                  <span
+                    >Đội ngũ giảng viên chất lượng tận tâm, trách nhiệm</span
+                  >
+                </div>
+              </div>
+
+              <div class="advise-btn my-2 d-flex justify-content-center">
+                <button
+                  type="button"
+                  class="btn orange-color bg-light fs-5 fw-bold shadow bg-body-tertiary"
+                >
+                  <i class="bi bi-telephone-fill orange-color"></i>
+                  <span class="orange-color">Tư Vấn</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------------------------------------------------------------------END SLIDER -->
+      <!------------------------------------------------------------------ DESCRIPTION MOBILE -->
+      <div class="website-description d-block d-lg-none my-3">
+        <div class="container main-bg p-1 rounded-1">
+          <div class="row my-3">
+            <div class="col-12 text-center">
+              <span
+                class="center-name main-text-color fs-3 fw-bold text-uppercase"
+              >
+                Trung Tâm Hàn Ngữ E-Korean</span
+              >
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-bookmarks-fill"></i>
+                </div>
+                <div class="text fw-medium">Mô hình đào tạo chất lượng</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-book-fill"></i>
+                </div>
+                <div class="text fw-medium">
+                  Lộ trình đào tạo đa dạng, phù hợp với mọi học viên
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-kanban-fill"></i>
+                </div>
+                <div class="text fw-medium">
+                  Hệ thống các khóa học từ kiến thức cơ bản đến nâng cao
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="item d-flex">
+                <div class="icon orange-color fs-4 mx-2">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div class="text fw-medium">
+                  Đội ngũ giảng viên chất lượng tận tâm, trách nhiệm
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------END DESCRIPTION -->
+      <!-- COURSE -->
+      <section class="course my-3">
+        <!-- Moblie -->
+        <div class="container main-bg pt-3 d-block d-lg-none">
+          <div class="row">
+            <span
+              class="course-title text-center main-text-color fs-3 fw-bold text-uppercase"
+            >
+              Khóa Học
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row my-4">
+                <div class="col-6">
+                  <img
+                    src="./img/course-img-1.png"
+                    alt=""
+                    class="course-img img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-6 d-flex flex-column justify-content-around mh-100"
+                >
+                  <div class="course-name fw-bold fs-5">
+                    Khóa Luyện Thi Topik
+                  </div>
+                  <div class="course-description d-none d-lg-block">
+                    Nâng cấp kỹ năng Đọc, Nghe, Viết và hoàn thiện hệ thống ngữ
+                    pháp, từ vựng cần thiết đê phục vụ cho mục tiêu Topik
+                  </div>
+                  <div class="course-time fs-5 fw-medium">
+                    <span><i class="bi bi-clock-fill"></i></span>
+                    <span> Thời gian dự kiến: 4 ~ 5 tháng</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-4">
+                <div class="col-6">
+                  <img
+                    src="./img/course-img-2.png"
+                    alt=""
+                    class="course-img img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-6 d-flex flex-column justify-content-around mh-100"
+                >
+                  <div class="course-name fw-bold fs-5">Tiếng Hàn Cao Cấp</div>
+                  <div class="course-description d-none d-lg-block">
+                    Nâng cấp kỹ năng Đọc, Nghe, Viết và hoàn thiện hệ thống ngữ
+                    pháp, từ vựng cần thiết đê phục vụ cho mục tiêu Topik
+                  </div>
+                  <div class="course-time fs-5 fw-medium">
+                    <span><i class="bi bi-clock-fill"></i></span>
+                    <span> Thời gian dự kiến: 4 ~ 5 tháng</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-4">
+                <div class="col-6">
+                  <img
+                    src="./img/course-img-3.png"
+                    alt=""
+                    class="course-img img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-6 d-flex flex-column justify-content-around mh-100"
+                >
+                  <div class="course-name fw-bold fs-5">
+                    Tiếng Hàn Trung Cấp
+                  </div>
+                  <div class="course-description d-none d-lg-block">
+                    Nâng cấp kỹ năng Đọc, Nghe, Viết và hoàn thiện hệ thống ngữ
+                    pháp, từ vựng cần thiết đê phục vụ cho mục tiêu Topik
+                  </div>
+                  <div class="course-time fs-5 fw-medium">
+                    <span><i class="bi bi-clock-fill"></i></span>
+                    <span> Thời gian dự kiến: 4 ~ 5 tháng</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-4">
+                <div class="col-6">
+                  <img
+                    src="./img/course-img-4.png"
+                    alt=""
+                    class="course-img img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-6 d-flex flex-column justify-content-around mh-100"
+                >
+                  <div class="course-name fw-bold fs-5">Tiếng Hàn Sơ Cấp</div>
+                  <div class="course-description d-none d-lg-block">
+                    Nâng cấp kỹ năng Đọc, Nghe, Viết và hoàn thiện hệ thống ngữ
+                    pháp, từ vựng cần thiết đê phục vụ cho mục tiêu Topik
+                  </div>
+                  <div class="course-time fs-5 fw-medium">
+                    <span><i class="bi bi-clock-fill"></i></span>
+                    <span> Thời gian dự kiến: 4 ~ 5 tháng</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END Mobile -->
+        <!-- PC -->
+        <div class="container d-none d-lg-block main-bg rounded-1 p-3">
+          <div class="row mb-3">
+            <span class="course-title text-center main-text-color fs-2 fw-bold">
+              Khóa Học
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="course-item bg-light d-flex flex-column gap-3 pb-2">
+                <img
+                  src="./img/course-img-1.png"
+                  class="course-img img-fluid"
+                  alt=""
+                />
+                <div class="course-name fw-bold fs-5 px-2">
+                  Khóa Luyện Thi Topik
+                </div>
+                <div class="course-description px-2">
+                  Nâng cấp kỹ năng Đọc, Nghe, Viết theo đa dạng chủ đề. Hoàn
+                  thiện hệ thống ngữ pháp, từ vựng cần thiết đê phục vụ cho mục
+                  tiêu Topik
+                </div>
+                <div class="course-time d-flex justify-content-between px-2">
+                  <div class="time">
+                    <span><i class="bi bi-clock-fill"></i></span
+                    ><span> 4 ~ 5 tháng</span>
+                  </div>
+                  <div class="participation">
+                    <span><i class="bi bi-people-fill"></i></span
+                    ><span>2.642</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="course-item bg-light d-flex flex-column gap-3 pb-2">
+                <img
+                  src="./img/course-img-2.png"
+                  class="course-img img-fluid"
+                  alt=""
+                />
+                <div class="course-name fw-bold fs-5 px-2">
+                  Khóa Luyện Thi Topik
+                </div>
+                <div class="course-description px-2">
+                  Nâng cấp kỹ năng Đọc, Nghe, Viết theo đa dạng chủ đề. Hoàn
+                  thiện hệ thống ngữ pháp, từ vựng cần thiết đê phục vụ cho mục
+                  tiêu Topik
+                </div>
+                <div class="course-time d-flex justify-content-between px-2">
+                  <div class="time">
+                    <span><i class="bi bi-clock-fill"></i></span
+                    ><span> 4 ~ 5 tháng</span>
+                  </div>
+                  <div class="participation">
+                    <span><i class="bi bi-people-fill"></i></span
+                    ><span>2.642</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="course-item bg-light d-flex flex-column gap-3 pb-2">
+                <img
+                  src="./img/course-img-3.png"
+                  class="course-img img-fluid"
+                  alt=""
+                />
+                <div class="course-name fw-bold fs-5 px-2">
+                  Khóa Luyện Thi Topik
+                </div>
+                <div class="course-description px-2">
+                  Nâng cấp kỹ năng Đọc, Nghe, Viết theo đa dạng chủ đề. Hoàn
+                  thiện hệ thống ngữ pháp, từ vựng cần thiết đê phục vụ cho mục
+                  tiêu Topik
+                </div>
+                <div class="course-time d-flex justify-content-between px-2">
+                  <div class="time">
+                    <span><i class="bi bi-clock-fill"></i></span
+                    ><span> 4 ~ 5 tháng</span>
+                  </div>
+                  <div class="participation">
+                    <span><i class="bi bi-people-fill"></i></span
+                    ><span>2.642</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="course-item bg-light d-flex flex-column gap-3 pb-2">
+                <img
+                  src="./img/course-img-4.png"
+                  class="course-img img-fluid"
+                  alt=""
+                />
+                <div class="course-name fw-bold fs-5 px-2">
+                  Khóa Luyện Thi Topik
+                </div>
+                <div class="course-description px-2">
+                  Nâng cấp kỹ năng Đọc, Nghe, Viết theo đa dạng chủ đề. Hoàn
+                  thiện hệ thống ngữ pháp, từ vựng cần thiết đê phục vụ cho mục
+                  tiêu Topik
+                </div>
+                <div class="course-time d-flex justify-content-between px-2">
+                  <div class="time">
+                    <span><i class="bi bi-clock-fill"></i></span
+                    ><span> 4 ~ 5 tháng</span>
+                  </div>
+                  <div class="participation">
+                    <span><i class="bi bi-people-fill"></i></span
+                    ><span>2.642</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END PC -->
+      </section>
+      <!--END COURSE -->
+      <!-- FORMAT -->
+      <section class="format">
+        <div class="container main-bg rounded-1">
+          <div class="row">
+            <span
+              class="format-title text-center main-text-color fs-3 fw-bold my-3 text-uppercase"
+              >Hình Thức</span
+            >
+          </div>
+          <div class="row p-2 d-flex justify-content-around">
+            <div class="col-6 col-lg-5 bg-light p-lg-4">
+              <div
+                class="format-name text-center orange-color fw-bold mt-4 mt-lg-1 fs-4"
+              >
+                Offline
+              </div>
+              <div class="format-item d-flex flex-column gap-1">
+                <div
+                  class="des-box d-flex justify-content-center align-items-center d-flex h-100px position-relative my-4 py-3 px-1 border border-danger-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box orange-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 orange-color fw-medium"
+                    >Tạo sự gắn kết các mối quan hệ giữa các học viên trong
+                    lớp</span
+                  >
+                </div>
+                <div
+                  class="des-box d-flex justify-content-center align-items-center d-flex h-100px position-relative my-4 py-3 px-1 border border-danger-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box orange-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 orange-color fw-medium"
+                    >Thuận tiện trao đổi với giảng viên và các học viên nhờ việc
+                    học trực tiếp</span
+                  >
+                </div>
+                <div
+                  class="des-box d-flex justify-content-center align-items-center d-flex h-100px position-relative my-4 py-3 px-1 border border-danger-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box orange-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 orange-color fw-medium"
+                    >Được hỗ trợ trực tuyến ngoài giờ học</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-5 bg-light p-lg-4">
+              <div
+                class="format-name text-center text-black fw-bold fs-4 mt-4 mt-lg-1"
+              >
+                Online
+              </div>
+              <div class="format-item d-flex flex-column gap-1">
+                <div
+                  class="des-box d-flex justify-content-center align-items-center d-flex h-100px position-relative my-4 py-3 px-1 border border-dark-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box black-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 text-black fw-medium"
+                    >Thuận tiện về thời gian, địa điểm nhưng vẫn đảm bảo về chất
+                    lượng đào tạo</span
+                  >
+                </div>
+                <div
+                  class="des-box d-flex justify-content-center align-items-center d-flex h-100px position-relative my-4 py-3 px-1 border border-dark-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box black-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 text-black fw-medium"
+                    >Giáo trình học và giá trị chứng chỉ tương đồng với hình
+                    thức học offline</span
+                  >
+                </div>
+                <div
+                  class="des-box d-flex justify-content-center align-items-center h-100px position-relative my-4 py-3 px-1 border border-dark-subtle rounded-2"
+                >
+                  <div
+                    class="icon-box black-bg-icon text-light p-1 rounded-2 position-absolute top-0 start-0 translate-middle"
+                  >
+                    <i class="bi bi-person-fill"></i>
+                  </div>
+                  <span
+                    class="format-text d-flex justify-content-center align-items-center h-100px px-3 text-black fw-medium"
+                    >Được hỗ trợ trực tuyến ngoài giờ học</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END FORMAT -->
+      <!-- PURPOSE -->
+      <section class="purpose mt-3 rounded-1">
+        <div class="container main-bg position-relative">
+          <img
+            class="position-absolute end-0 bottom-0 d-none d-lg-block"
+            style="width: 150px; height: 150px"
+            src="./img/latern.png"
+          />
+          <img
+            class="eclipse-position d-none d-lg-block"
+            style="width: 130px; height: 100px; left: 40px"
+            src="./img/eclipse.png"
+          />
+          <div class="row">
+            <div
+              class="purpose-title text-center main-text-color fs-3 fw-bold my-3 my-lg-5"
+            >
+              KHÓA HỌC CỦA E-KOREAN PHÙ HỢP VỚI AI ?
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div
+              class="col-8 col-lg-12 d-lg-flex flex-lg-wrap justify-content-lg-around"
+            >
+              <div
+                class="col-lg-5 my-lg-3 fs-4 item soft-red-bg text-center fw-bold py-3 px-1 mb-3 rounded-1 h-80px d-flex justify-content-center align-items-center"
+              >
+                <span class="item-text text-light"
+                  >Những bạn mới học tiếng Hàn Quốc</span
+                >
+              </div>
+              <div
+                class="col-lg-5 my-lg-3 fs-4 item soft-red-bg text-center fw-bold py-3 px-1 mb-3 rounded-1 h-80px d-flex justify-content-center align-items-center"
+              >
+                <span class="item-text text-light"
+                  >Những bạn tự học nhưng chưa hiệu quả</span
+                >
+              </div>
+              <div
+                class="col-lg-5 my-lg-3 fs-4 item soft-red-bg text-center fw-bold py-3 px-1 mb-3 rounded-1 h-80px d-flex justify-content-center align-items-center"
+              >
+                <span class="item-text text-light">
+                  Ôn luyện để nâng cao trình độ tiếng Hàn</span
+                >
+              </div>
+              <div
+                class="col-lg-5 my-lg-3 fs-4 item soft-red-bg text-center fw-bold py-3 px-1 mb-3 rounded-1 h-80px d-flex justify-content-center align-items-center"
+              >
+                <span class="item-text text-light">Ôn luyện để thi TOPIK</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row justify-content-center align-items-center d-none d-lg-flex"
+          >
+            <div
+              class="col-2 my-lg-5 d-flex justify-content-center align-items-center"
+            >
+              <button
+                type="button"
+                class="btn btn-warning fs-4 fw-bold text-dark-emphasis py-3 px-4"
+              >
+                Đăng ký
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END PURPOSE -->
+      <!-- LECTURES -->
+      <section class="lecturers">
+        <div class="container">
+          <div class="row">
+            <div class="lecturers-title text-uppercase">đội ngũ giảng viên</div>
+          </div>
+          <div class="row">
+            <div class="lecturers-box">
+              <div class="item"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END LECTURES -->
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
